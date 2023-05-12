@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-![img](images/head_image.jpg)
+![img](images/head_image.jpeg)
 
 **Authors**:
 
@@ -46,16 +46,17 @@ Our best model was built using Singular Value Decomposition (SVD) and achieved a
 
 ![img](images/model_performance.png)
 
+- Below are two movie recommendations for two different randomly selected users:
+
 ![img](images/rec_1.png)
+
+- This recommendation has been filtered on the genre "Thriller":
 
 ![img](images/rec_2.png)
 
 ## Conclusions
 
 Our recommendation model aims to simplify the movie selection process for individuals by providing personalized movie suggestions based on their viewing history and preferences. By predicting expected ratings for movies that users have yet to rate, we hope to encourage more accurate ratings, which will result in even better recommendations.
-
-Add conclusion based on function here
-
 
 ## Next Steps
 
