@@ -44,7 +44,7 @@ Root Mean Square Error (RMSE) score was used as the main metric to determine the
 
 Our best model was built using Singular Value Decomposition (SVD) and achieved an RMSE of 0.85.
 
-![img](images/model_performance.png)
+![img](images/model_performance.jpg)
 
 - Below are two movie recommendations for two different randomly selected users:
 
