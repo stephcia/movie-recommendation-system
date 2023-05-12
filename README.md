@@ -42,11 +42,11 @@ To apply user-based collaborative filtering, the model will identify the movies 
 
 Root Mean Square Error (RMSE) score was used as the main metric to determine the accuracy of the predictive model. The RMSE measures the difference btween the actual and prediting ratings. The movie ratings are on a scale of 1-5. 
 
-Our best model was built using Singular Value Decomposition (SVD) and achieved an RMSE of 0.85.
+Our best model was built using Singular Value Decomposition (SVD) and achieved an RMSE of 0.85, meaning the average difference between the predicted rating and actual rating is 0.85. This model included two functions that allow users to look for movie recommendations based on their past ratings and to filter the movie recommendation by genre.
 
 ![img](images/model_performance.jpg)
 
-- Below are two movie recommendations for two different randomly selected users:
+- Below are movie recommendationss for two different randomly selected users:
 
 ![img](images/rec_1.png)
 
@@ -77,8 +77,6 @@ See the full analysis in the [Jupyter Notebook](https://github.com/stephcia/movi
 ```
 ├── data
 ├── images
-├── .gitignore
 ├── movie_recommendation_system.ipynb
 ├── Movie_Recs_Presentation.pdf
-├── LICENSE
 └── README.md
